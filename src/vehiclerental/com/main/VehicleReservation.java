@@ -1,7 +1,7 @@
-package com.vehiclerental.main;
+package vehiclerental.com.main;
 
-import com.vehiclerental.enums.VehicleReservationType;
-import com.vehiclerental.addons.AddonService;
+import vehiclerental.com.enums.VehicleType;
+import vehiclerental.com.addons.AddonService;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public class VehicleReservation {
     private HireableVehicle vehicle;
     private LocalDateTime startDateTime;
     private LocalDateTime endDateTime;
-    private VehicleReservationType reservationType;
+    private VehicleType reservationType;
     private List<AddonService> addons;
     private double totalCost;
     private boolean isPaid;
@@ -22,7 +22,7 @@ public class VehicleReservation {
 
     public VehicleReservation(User user, HireableVehicle vehicle, 
                                LocalDateTime startDateTime, 
-                               VehicleReservationType reservationType) {
+                               VehicleType reservationType) {
         this.reservationId = UUID.randomUUID().toString();
         this.user = user;
         this.vehicle = vehicle;

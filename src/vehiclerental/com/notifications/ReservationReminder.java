@@ -1,7 +1,7 @@
-package com.vehiclerental.notifications;
+package vehiclerental.com.notifications;
 
-import com.vehiclerental.main.User;
-import com.vehiclerental.main.VehicleReservation;
+import vehiclerental.com.main.User;
+import vehiclerental.com.main.VehicleReservation;
 import java.time.LocalDateTime;
 
 public class ReservationReminder {

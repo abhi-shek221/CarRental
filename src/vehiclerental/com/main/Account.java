@@ -1,8 +1,8 @@
-package com.vehiclerental.main;
+package vehiclerental.com.main;
 
-import com.vehiclerental.utils.Contact;
-import com.vehiclerental.enums.AccountStatus;
-import com.vehiclerental.enums.AccountType;
+import vehiclerental.com.utils.Contact;
+import vehiclerental.com.enums.AccountStatus;
+import vehiclerental.com.enums.AccountType;
 import java.time.LocalDateTime;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

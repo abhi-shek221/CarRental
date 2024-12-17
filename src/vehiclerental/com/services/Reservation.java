@@ -1,9 +1,9 @@
-package com.vehiclerental.services;
+package vehiclerental.com.services;
 
-import com.vehiclerental.main.User;
-import com.vehiclerental.main.HireableVehicle;
-import com.vehiclerental.main.VehicleReservation;
-import com.vehiclerental.enums.VehicleReservationType;
+import vehiclerental.com.main.User;
+import vehiclerental.com.main.HireableVehicle;
+import vehiclerental.com.main.VehicleReservation;
+import vehiclerental.com.enums.VehicleType;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ public class Reservation {
     public VehicleReservation createReservation(User user, 
                                                 HireableVehicle vehicle, 
                                                 LocalDateTime startDateTime, 
-                                                VehicleReservationType reservationType) {
+                                                VehicleType reservationType) {
         // Check for any conflicting reservations
         boolean isVehicleAvailable = isVehicleAvailableForReservation(vehicle, startDateTime);
         

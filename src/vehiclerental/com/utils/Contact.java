@@ -1,4 +1,4 @@
-package com.vehiclerental.utils;
+package vehiclerental.com.utils;
 
 import java.util.regex.Pattern;
 

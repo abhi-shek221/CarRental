@@ -1,4 +1,4 @@
-package com.vehiclerental.enums;
+package vehiclerental.com.enums;
 
 public enum VehicleType {
     SEDAN("Standard Passenger Car"),
@@ -8,7 +8,7 @@ public enum VehicleType {
     TRUCK("Commercial Truck"),
     VAN("Passenger or Cargo Van"),
     MOTORCYCLE("Two-Wheeled Vehicle"),
-    ELECTRIC("Electric Vehicle");
+    ELECTRIC("Electric Vehicle"), HOURLY("Hourly Rental"), FOUR_HOURS("Four Hours Rental"), EIGHT_HOURS("Eight Hours Rental"), DAY("Daily Rental"), MONTH("Monthly Rental");
 
     private final String description;
 

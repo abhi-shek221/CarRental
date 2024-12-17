@@ -1,6 +1,6 @@
-package com.vehiclerental.services;
+package vehiclerental.com.services;
 
-import com.vehiclerental.main.VehicleReservation;
+import vehiclerental.com.main.VehicleReservation;
 import java.time.LocalDateTime;
 import java.util.UUID;
 

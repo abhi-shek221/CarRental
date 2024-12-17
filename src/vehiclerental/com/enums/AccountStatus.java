@@ -1,4 +1,4 @@
-package com.vehiclerental.enums;
+package vehiclerental.com.enums;
 
 public enum AccountStatus {
     ACTIVE("Active"),      // Account is fully functional

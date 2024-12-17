@@ -1,4 +1,4 @@
-package com.vehiclerental.enums;
+package vehiclerental.com.enums;
 
 public enum LicenseType {
     PRIVATE_CAR("Private Car License"),

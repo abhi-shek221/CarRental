@@ -1,4 +1,4 @@
-package com.vehiclerental.addons;
+package vehiclerental.com.addons;
 
 public abstract class VehicleAddon implements AddonService {
     protected String name;

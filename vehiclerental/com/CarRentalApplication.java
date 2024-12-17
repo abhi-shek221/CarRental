@@ -1,10 +1,10 @@
-package com.vehiclerental;
+package vehiclerental.com;
 
-import com.vehiclerental.main.*;
-import com.vehiclerental.utils.*;
-import com.vehiclerental.enums.*;
-import com.vehiclerental.services.*;
-import com.vehiclerental.addons.*;
+import vehiclerental.com.main.*;
+import vehiclerental.com.utils.*;
+import vehiclerental.com.enums.*;
+import vehiclerental.com.services.*;
+import vehiclerental.com.addons.*;
 import java.time.LocalDateTime;
 import java.time.LocalDate;
 
@@ -80,7 +80,7 @@ public class CarRentalApplication {
             user, 
             vehicle, 
             LocalDateTime.now(), 
-            VehicleReservationType.DAY
+            VehicleType.DAY
         );
 
         // Add Addons

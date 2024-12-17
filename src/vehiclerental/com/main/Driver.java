@@ -1,9 +1,9 @@
-package com.vehiclerental.main;
+package vehiclerental.com.main;
 
-import com.vehiclerental.enums.AccountType;
-import com.vehiclerental.enums.LicenseType;
-import com.vehiclerental.utils.Contact;
-import com.vehiclerental.utils.PersonalInfo;
+import vehiclerental.com.enums.AccountType;
+import vehiclerental.com.enums.LicenseType;
+import vehiclerental.com.utils.Contact;
+import vehiclerental.com.utils.PersonalInfo;
 import java.time.LocalDate;
 
 public class Driver extends Account {

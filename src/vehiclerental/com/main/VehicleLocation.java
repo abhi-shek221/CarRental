@@ -1,6 +1,8 @@
-package com.vehiclerental.main;
+package vehiclerental.com.main;
 
-import com.vehiclerental.utils.Coordinates;
+import vehiclerental.com.enums.VehicleStatus;
+import vehiclerental.com.enums.VehicleType;
+import vehiclerental.com.utils.Coordinates;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.stream.Collectors;

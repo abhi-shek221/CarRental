@@ -1,7 +1,7 @@
-package com.vehiclerental.notifications;
+package vehiclerental.com.notifications;
 
-import com.vehiclerental.main.User;
-import com.vehiclerental.services.Invoice;
+import vehiclerental.com.main.User;
+import vehiclerental.com.services.Invoice;
 import java.time.LocalDateTime;
 
 public class InvoiceNotification {

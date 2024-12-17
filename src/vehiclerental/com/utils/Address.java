@@ -1,4 +1,4 @@
-package com.vehiclerental.utils;
+package vehiclerental.com.utils;
 
 public class Address {
     private String streetAddress;

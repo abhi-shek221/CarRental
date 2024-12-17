@@ -1,7 +1,7 @@
-package com.vehiclerental.main;
+package vehiclerental.com.main;
 
-import com.vehiclerental.enums.AccountType;
-import com.vehiclerental.utils.Contact;
+import vehiclerental.com.enums.AccountType;
+import vehiclerental.com.utils.Contact;
 
 public class Admin extends Account {
     private String department;

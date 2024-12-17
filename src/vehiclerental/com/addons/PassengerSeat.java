@@ -1,4 +1,4 @@
-package com.vehiclerental.addons;
+package vehiclerental.com.addons;
 
 public class PassengerSeat extends VehicleAddon {
     private int passengerCount;

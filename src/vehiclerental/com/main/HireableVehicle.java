@@ -1,9 +1,9 @@
-package com.vehiclerental.main;
+package vehiclerental.com.main;
 
-import com.vehiclerental.utils.Coordinates;
-import com.vehiclerental.enums.VehicleCategory;
-import com.vehiclerental.enums.VehicleStatus;
-import com.vehiclerental.enums.VehicleType;
+import vehiclerental.com.utils.Coordinates;
+import vehiclerental.com.enums.VehicleCategory;
+import vehiclerental.com.enums.VehicleStatus;
+import vehiclerental.com.enums.VehicleType;
 import java.util.UUID;
 
 public class HireableVehicle {

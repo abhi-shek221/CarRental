@@ -1,4 +1,4 @@
-package com.vehiclerental.enums;
+package vehiclerental.com.enums;
 
 public enum AccountType {
     USER("Regular User"),
