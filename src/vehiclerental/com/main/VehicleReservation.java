@@ -35,6 +35,19 @@ public class VehicleReservation {
 
     private void calculateEndDateTime() {
         switch (reservationType) {
+            case CAR:
+            endDateTime = startDateTime.plusDays(7);
+            break;
+            case MOTORCYCLE:
+            endDateTime = startDateTime.plusDays(3);
+            break;
+            case TRUCK:
+            endDateTime = startDateTime.plusDays(14);
+            break;
+            case VAN:
+            endDateTime = startDateTime.plusDays(7);
+            break;
+
             case HOURLY:
                 this.endDateTime = startDateTime.plusHours(1);
                 break;
@@ -50,6 +63,10 @@ public class VehicleReservation {
             case MONTH:
                 this.endDateTime = startDateTime.plusMonths(1);
                 break;
+
+            default:
+            endDateTime = startDateTime.plusDays(1);
+            
         }
     }
 

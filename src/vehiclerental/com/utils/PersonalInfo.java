@@ -22,6 +22,9 @@ public class PersonalInfo {
     public String getFullName() {
         return firstName + " " + lastName;
     }
+    public String getGender() {
+        return gender;
+    }
 
     // Validation methods
     public boolean isAdult() {
